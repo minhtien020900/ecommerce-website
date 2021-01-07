@@ -1,0 +1,87 @@
+#image-thumnail{
+    width: 80px;
+    height: 85px;
+}
+.del-icon > form > button:hover > i {
+    color: #ff7f00;
+}
+.del-icon button {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    outline: medium none;
+    color: #666666;
+}
+.del-icon > form > button > i {
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 15px;
+    padding-left:18px;
+    z-index: 2;
+}
+button.button.button-black {
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.03) inset;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    background-color: #575757;
+    color: #4FC1F0;
+    font-size: 15px;
+}
+button.button.extra-small span {
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+button.button.button-black span {
+    display: block;
+    float: left;
+    position: relative;
+    z-index: 2;
+    padding: 11px 20px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+}
+.action-button >li:hover >form #btn-add-cart {
+    background: #FF7F00;
+    border-color: #FF7F00;
+    color: #fff;
+} 
+.action-button >li form #btn-add-cart {
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #999999;
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    text-align: center;
+}
+.action-button > li > button i {
+    line-height: 28px;
+}
+button:active, button:hover {
+    outline: 0;
+}
+.product-remove button {
+    color: #999;
+    display: block;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    transition: all 0.3s ease 0s;
+    width: 20px;
+}
+
